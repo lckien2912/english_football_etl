@@ -1,5 +1,5 @@
 ## Introduction
-This ETL pipeline is a process that extracts the english football datasets from Google Cloud Storage (GCS), transforms it, and then loads these data into Google BigQuery (BQ) using Airflow on Google Cloud Composer.
+This ETL pipeline is a process that extracts the English football (1988-2022) datasets from Google Cloud Storage (GCS), transforms it, and then loads these data into Google BigQuery (BQ) using Airflow on Google Cloud Composer.
 
 ## Requirements
 To build this pipeline, you will need the following:
