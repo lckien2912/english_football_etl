@@ -10,4 +10,5 @@ SELECT
     home_team_win,
     away_team_win,
     draw
-FROM `future-glider-383316.staging_football_dataset.staging_matches`;
+FROM `future-glider-383316.staging_football_dataset.staging_matches`
+ORDER BY match_id;

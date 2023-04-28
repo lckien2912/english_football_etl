@@ -8,4 +8,5 @@ SELECT
     draws,
     losses,
     points
-FROM `future-glider-383316.staging_football_dataset.staging_standings`;
+FROM `future-glider-383316.staging_football_dataset.staging_standings`
+ORDER BY season_id, position;
